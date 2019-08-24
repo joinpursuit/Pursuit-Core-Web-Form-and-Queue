@@ -27,7 +27,7 @@
 
 3. Add JavaScript that handles the `Dequeue` button. 
 
-4. **Note** the script in the head `<script src="enableDOMQueue.js" rel="text/javascript" ></script>` has a function that will enable your Queue to display in the DOM. You must call the function `enableDOMQueue(yourQueue)` in the last line inside your event listener for `"DOMContentLoaded"`
+4. **Note** the script in the head `<script src="enableDOMQueue.js" ></script>` has a function that will enable your Queue to display in the DOM. You must call the function `enableDOMQueue(yourQueue)` in the last line inside your event listener for `"DOMContentLoaded"`
 
 5. **Note** Toppings values are like so: 
 ```
