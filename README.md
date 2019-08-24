@@ -5,7 +5,7 @@
 
 2. Add a script that waits for the DOM and handles the form submission.
 
-    * When the form is submitted create an object with the information that the user entered. This object represents an order and looks like this. Your object should use the same __key names__:
+    * When the form is submitted create an object with the information that the user entered. This object represents a pizza order and looks like this. Your object should use the same __key names__:
 
     ```js
     let order = {
