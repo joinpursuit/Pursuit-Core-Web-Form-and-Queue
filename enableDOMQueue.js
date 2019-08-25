@@ -1,3 +1,5 @@
+ines (17 sloc)  577 Bytes
+    
 const enableDOMQueue = (queue) => {
   let originalEnqueue = queue.enqueue;
   let originalDequeue = queue.dequeue;
