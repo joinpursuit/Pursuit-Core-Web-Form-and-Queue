@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src='enableDOMQueue.js'></script>
+        
+        <title>Gluten Free Pizza Order</title>
+        <link id='style' href='enableDOMQueue.css' rel='stylesheet'>
+        <link href='enableDOMQueue.css' rel='stylesheet'>
+    </head>
+    <body>
+        <img src='https://glutenfreeonashoestring.com/_main_site/wp-content/uploads/2015/02/Whole-pizza-sliced-Bread-Flour.jpg' alt='gfpizzapic' width='300'>
+        <h1>GF PIZZA FOR THOSE WHO ARE LEFT OUT</h1>
+        <p>Ever been left out the "Pizza Day" at work where your employer treats staff for a boring meeting or "Game Day" with the homies chugging beers and need something to soak number 1-4?
+            Have no fear, order and bill the person forgot your allergy or intolerance!!! lol
+            All crust are made in a gluten free kitchen, little to no cross contamination! 
+        </p>
+        <hr>
+        <div>
+            <h2>Orders</h2>
+            <ol id ='orders_list'></ol>
+          
+           
+            <h3>Customer Info</h3>
+            <form>
+                    First Name:
+                <input type='text' name='firstname' value=''><br>
+                Last Name:
+                <input type='text' name='lastname' value=''><br>
+                Address:
+                <input type='text' name='Address' value=''><br>
+              
+                <h3>Build Your Pizza</h3>
+                <h5>Pie Size:</h5>
+                <form type=''name='size'>
+                        <input type='radio' name ='size' value='small' > Small
+                        <input type='radio' name='size' value='medium'> Medium
+                        <input type='radio' name ='size' value='large'> Large
+                <h5> Crust:</h5>
+            
+   
+                    <select name="crust">
+                            <option value="Thin">Thin</option>
+                            <option value="Thick">Thick</option>
+                            <option value="Stuffed">Stuffed</option>
+                            </select>
+                
+                <h5> Toppings:</h5>
+                <form type='' name='toppings'>
+                        <input type='checkbox' name='toppings' value='1'> Anchovies
+                        <input type='checkbox' name='toppings' value='2'>Ham
+                        <input type='checkbox' name='toppings' value='3'> Pepperoni 
+                        <input type='checkbox' name='toppings'value='4'> Sausage
+                        <input type='checkbox' name='toppings' value='5'> Broccoli
+                        <input type='checkbox' name='toppings' value='6'>Green Olives
+                        <input type='checkbox' name='toppings' value='7'> Mushrooms
+                        <input type='checkbox' name='toppings' value='8'>Roasted Garlic
+                <h5>Special Instructions:</h5>
+                <input type='text' name='addtext'>
+                <div>
+                        <button id='dequeue_btn'>Dequeue</button>
+                </div>
+               
+                    </form>
+                </form>
+            </form>
+        </div>
+    </body>
+</html>

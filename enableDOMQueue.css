@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lexend+Mega|Shadows+Into+Light&display=swap');
+body {
+font-family: 'Shadows Into Light', cursive;
+background: rgb(2,0,36);
+background: linear-gradient(270deg, rgb(240, 58, 2) 0%, rgb(247, 247, 248) 35%, rgb(5, 209, 56) 100%);
+}
+h1,h4 {
+    text-align: center;
+}
